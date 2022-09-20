@@ -78,7 +78,7 @@ class Solution:
 ```
 
 ### Revisit Recommendation
-BFS
-Python Set, Collections, Deque
-How can we change the implementation to DFS (using pop instead of popleft of deque)
-Runtime of BFS/DFS
+- BFS
+- Python Set, Collections, Deque
+- How can we change the implementation to DFS (using pop instead of popleft of deque)
+- Runtime of BFS/DFS
