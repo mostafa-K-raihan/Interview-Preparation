@@ -12,7 +12,7 @@ region](/Leetcode/images/surrounded_by_region.png?raw=true, "Surrounded by Regio
     Input: board = [["X","X","X","X"],["X","O","O","X"],["X","X","O","X"],["X","O","X","X"]]
     Output: [["X","X","X","X"],["X","X","X","X"],["X","X","X","X"],["X","O","X","X"]]
     Explanation: Notice that an 'O' should not be flipped if:
-    - It is on the border, or
+    - It is on the border,
     - It is adjacent to an 'O' that should not be flipped.
     The bottom 'O' is on the border, so it is not flipped.
     The other three 'O' form a surrounded region, so they are flipped.
@@ -31,7 +31,7 @@ region](/Leetcode/images/surrounded_by_region.png?raw=true, "Surrounded by Regio
 
 ### Code
 
-```python
+``` python
 
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
@@ -169,7 +169,7 @@ return the copy of the given node as a reference to the cloned graph.
 Code
 ----
 
-``` {.python}
+``` python
 class Solution:
     def cloneGraph(self, node: 'Node') -> 'Node':
         if not node:
@@ -221,7 +221,7 @@ return 0.
 Code
 ----
 
-``` {.python}
+``` python
 
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
@@ -319,7 +319,7 @@ Example
 
 ### Code
 
-``` {.python}
+``` python
 class Solution:
     def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
         
@@ -398,7 +398,7 @@ grid are all surrounded by water.
 
 ### Code
 
-``` {.python}
+``` python
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         rows, cols = len(grid), len(grid[0])
@@ -455,7 +455,7 @@ Double Ended Queue (deque)
 prefered over list when we needed quicker append and pop operations.
 both can be done in `O(1)` where in list it could be `O(n)`
 
-``` {.python}
+``` python
 from collections import deque
 
 q = deque(['name', 'age', 'dob'])
@@ -464,7 +464,7 @@ print(q)
 
 ### Output
 
-``` {.python}
+``` python
 
 deque(['name', 'age', 'dob'])
 ```
@@ -487,7 +487,7 @@ deque(['name', 'age', 'dob'])
     is reversed
 -   count(value)
 
-``` {.python}
+``` python
 
 q = deque([1, 2, 3])
 q.append(4)           # [1, 2, 3, 4]
