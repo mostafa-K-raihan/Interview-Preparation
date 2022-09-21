@@ -3,7 +3,7 @@ Given an `m x n` matrix board containing `'X'` and `'O'`, capture all regions th
 
 A region is captured by flipping all `'O's` into `'X's` in that surrounded region.
 
-![surrounded by region](../images/surrounded_by_region.png?raw=true, "Surrounded by Region")
+![surrounded by region](./Leetcode/images/surrounded_by_region.png?raw=true, "Surrounded by Region")
 
 ```
 Input: board = [["X","X","X","X"],["X","O","O","X"],["X","X","O","X"],["X","O","X","X"]]

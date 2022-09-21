@@ -8,7 +8,7 @@ The island receives a lot of rain, and the rain water can flow to neighboring ce
 Return a 2D list of grid coordinates result where result[i] = [ri, ci] denotes that rain water can flow from cell (ri, ci) to both the Pacific and Atlantic oceans.
 
 ## Example
-![pacific_atlantic_water_flow](../images/pacific_atlantic_water_flow?raw=true "Pacific Atlantic Water Flow")
+![pacific_atlantic_water_flow](./Leetcode/images/pacific_atlantic_water_flow?raw=true "Pacific Atlantic Water Flow")
 
 ### Code
 ```python
