@@ -7,7 +7,7 @@ A region is captured by flipping all `'O's` into `'X's` in that
 surrounded region.
 
 ![surrounded by
-region](../images/surrounded_by_region.png?raw=true, "Surrounded by Region")
+region](/Leetcode/images/surrounded_by_region.png?raw=true, "Surrounded by Region")
 
     Input: board = [["X","X","X","X"],["X","O","O","X"],["X","X","O","X"],["X","O","X","X"]]
     Output: [["X","X","X","X"],["X","X","X","X"],["X","X","X","X"],["X","O","X","X"]]
@@ -31,7 +31,7 @@ region](../images/surrounded_by_region.png?raw=true, "Surrounded by Region")
 
 ### Code
 
-``` {.python}
+```python
 
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
@@ -315,7 +315,7 @@ Pacific and Atlantic oceans.
 Example
 -------
 
-![pacific\_atlantic\_water\_flow](../images/pacific_atlantic_water_flow?raw=true "Pacific Atlantic Water Flow")
+![pacific\_atlantic\_water\_flow](./Leetcode/images/pacific_atlantic_water_flow?raw=true "Pacific Atlantic Water Flow")
 
 ### Code
 
