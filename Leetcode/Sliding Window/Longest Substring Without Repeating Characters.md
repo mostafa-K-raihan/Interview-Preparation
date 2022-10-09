@@ -65,6 +65,31 @@ class Solution:
         return res
 ```
 
+```js
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var lengthOfLongestSubstring = function (s) {
+  charMap = {};
+  let l = 0,
+    r = 0,
+    res = 0;
+  for (; r < s.length; r += 1) {
+    const c = s[r];
+
+    while (charMap[c]) {
+      delete charMap[s[l]];
+      l += 1;
+    }
+    charMap[c] = true;
+    res = Math.max(res, r - l + 1);
+  }
+
+  return res;
+};
+```
+
 ### Gotchas
 
 - keep track of two pointers and a set
@@ -75,3 +100,8 @@ class Solution:
   - keep the right pointer as it is (why?? because we will treat this a new char, and discard the prev one, abca, we found a in 4th position, so we will treat this as new and discard the 1st one)
   - remove the left char from the set
   - update the left pointer
+
+PS:
+
+- please remove first then update the left pointer,
+- otherwise we will fall into a classic bug
